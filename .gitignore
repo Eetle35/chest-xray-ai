@@ -1,0 +1,38 @@
+# VS Code
+.vscode/
+
+# Jupyter temp
+*.ipynb_checkpoints
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# secrets / keys
+*.pem
+*.key
+*.pub
+*.json
+
+# SSH keys
+key
+key.pub
+
+# matplotlib cache
+.matplotlib/
+
+# pytest / test
+.pytest_cache/
+
+# macOS archive junk
+__MACOSX/
+
+# output figures if huge
+outputs/raw/
+outputs/tmp/
+
+# local configs
+*.env
